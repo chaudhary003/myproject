@@ -1,0 +1,40 @@
+#header {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: #10284e;
+    color: #fff;
+    overflow: hidden;
+}
+.module h2, .module caption, .inline-group h2{
+  background: #30CCA0;
+}
+div.breadcrumbs {
+  background: #30CCA0;
+  color:black;
+}
+div.breadcrumbs a{
+  color:#10284e;
+}
+
+element.style {
+}
+@media (max-width: 767px)
+.submit-row input, .submit-row input.default, .submit-row a, .submit-row a.closelink {
+    float: none;
+    margin: 0 0 10px;
+    text-align: center;
+}
+.submit-row input.default {
+    margin: 0 0 0 8px;
+    text-transform: uppercase;
+}
+.button.default, input[type=submit].default, .submit-row input.default{
+  background: #30CCA0;
+}
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+  background: #30CCA0;
+}
